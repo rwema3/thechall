@@ -700,6 +700,7 @@ section.main-banner {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 @media only screen and (min-width: 400px) {
   section.main-banner {
