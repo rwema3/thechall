@@ -699,6 +699,7 @@ section.main-banner {
   background-image: url('../images/sudsy-image.png');
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 @media only screen and (min-width: 400px) {
   section.main-banner {
