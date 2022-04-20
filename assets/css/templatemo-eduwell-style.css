@@ -696,11 +696,13 @@ banner
 --------------------------------------------- 
 */
 
-section.main-banner {
-  margin-top: 100px;
-  background-image: url(../images/iron-image.png);
-}
 
+
+@media only screen and (min-width: 400px) {
+  section.main-banner {
+    background-image: url('../images/iron-image.png');
+  }
+}
 .main-banner {
   padding-top: 180px;
 }
