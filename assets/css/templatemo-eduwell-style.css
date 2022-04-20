@@ -695,9 +695,6 @@ header
 banner
 --------------------------------------------- 
 */
-
-
-
 @media only screen and (min-width: 400px) {
   section.main-banner {
     background-image: url('../images/iron-image.png');
@@ -716,27 +713,6 @@ banner
 .main-banner .right-image img {
   position: relative;
   z-index: 9;
-}
-
-.main-banner .right-image::after {
-  position: absolute;
-  background-image: url(../images/banner-right-dec.png);
-  width: 378px;
-  height: 378px;
-  content: '';
-  right: -25%;
-  z-index: 1;
-}
-
-.main-banner .header-text::after {
-  position: absolute;
-  background-image: url(../images/banner-left-dec.png);
-  width: 214px;
-  height: 429px;
-  content: '';
-  left: 0;
-  bottom: -240px;
-  z-index: 1;
 }
 
 .main-banner .header-text h6 {
